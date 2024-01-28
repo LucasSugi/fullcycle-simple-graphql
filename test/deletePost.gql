@@ -1,0 +1,12 @@
+mutation DeletePost {
+  deletePost(id: "0001") {
+    post {
+      id
+      title
+      description
+      created_at
+    }
+    success
+    errors
+  }
+}

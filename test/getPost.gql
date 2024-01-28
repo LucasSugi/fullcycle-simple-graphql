@@ -1,0 +1,11 @@
+query GetPost {
+  getPost(id: "0001") {
+    post {
+      id
+      title
+      description
+    }
+    success
+    errors
+  }
+}
